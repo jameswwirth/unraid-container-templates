@@ -19,13 +19,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/pints/www</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/var/www/samplewebsite</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/samplewebsite/config</HostDir>
-      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
