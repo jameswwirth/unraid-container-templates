@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>Pints</Name>
+  <Name>samplewebsite</Name>
   <Description>James Sample Website</Description>
   <Registry>https://hub.docker.com/r/jameswwirth/samplewebsite/</Registry>
   <Repository>jameswwirth/samplewebsite</Repository>
@@ -11,7 +11,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>80</HostPort>
+        <HostPort>9000</HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -30,8 +30,8 @@
     </Volume>
   </Data>
   <Version>05616fd2</Version>
-  <WebUI>http://[iP]:[PORT:80]/</WebUI>
+  <WebUI>http://[iP]:[PORT:9000]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/jameswwirth/unraid-container-templates/master/icons/samplewebsite.png</Icon>
+  <Icon>https://raw.githubusercontent.com/jameswwirth/unraid-container-templates/master/jameswwirth/icons/samplewebsite.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
