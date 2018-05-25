@@ -25,7 +25,7 @@
     </Volume>
   </Data>
   <Version>05616fd2</Version>
-  <WebUI>http://[iP]:[PORT:9000]/</WebUI>
+  <WebUI>http://[IP]:[PORT:9000]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/jameswwirth/unraid-container-templates/master/jameswwirth/icons/samplewebsite.png</Icon>
   <ExtraParams></ExtraParams>
