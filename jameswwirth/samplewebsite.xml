@@ -20,11 +20,11 @@
   <Data>
     <Volume>
       <HostDir>/mnt/cache/appdata/pints/www</HostDir>
-      <ContainerDir>/var/www/Pints</ContainerDir>
+      <ContainerDir>/var/www/samplewebsite</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/pints/config</HostDir>
+      <HostDir>/mnt/cache/appdata/samplewebsite/config</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
