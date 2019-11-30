@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mosca-mqttca-mqtt></Name>
+  <Repository>matteocollina/mosca</Repository>
+  <Registry>https://hub.docker.com/r/matteocollina/mosca</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Overview>MOSCA MQTT Server</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:1883]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/jameswwirth/unraid-container-templates/master/jameswwirth/icons/mosca-mqtt.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <DateInstalled>1527272422</DateInstalled>
+  <Description>James Sample Website</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>1883</HostPort>
+        <ContainerPort>1883</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir></ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Config Name="Host Port 1" Target="1883" Default="1883" Mode="tcp" Description="1883" Type="Port" Display="always" Required="true" Mask="false">1883</Config>
+  <Config Name="Host Path 1" Target="" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"></Config>
+</Container>
