@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>mosca-mqttca-mqtt></Name>
+  <Name>moscamqtt></Name>
   <Repository>matteocollina/mosca</Repository>
   <Registry>https://hub.docker.com/r/matteocollina/mosca</Registry>
   <Network>bridge</Network>
